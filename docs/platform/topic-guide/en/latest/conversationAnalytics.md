@@ -8,7 +8,7 @@ permalink: platform/topic-guide/en/latest/Conversation Analytics
 #### Topic Guide
 ###### Conversation History
 
- Check out our explanatory FAQs, documentation links on Conversation History.
+ Check out our explanatory FAQs, documentation links on Conversations History.
 
 <details open>
   <summary>FAQs
@@ -17,15 +17,14 @@ permalink: platform/topic-guide/en/latest/Conversation Analytics
 
   <details class="nested-details">
  
-  <summary>What does Overview Dashboard depict?
+  <summary>What are conversations?
   </summary>
 
  
- The Overview Dashboard provides a summary of the Conversation Dashboard, Users Dashboard, and Performance Dashboard. 
- The dashboard provides the insights of: 
-•	Conversation Session that includes distribution of self-service sessions, drop-off sessions, and agent transfer sessions. 
-•	Users Dashboard that includes the distribution between New users and Returning Users of the virtual assistant.
-•	NLP Performance that includes Intent Detection Rate, Goal Completion Rate, Successful API Execution Rate and Successful Script Execution Rate
+Conversations include the voice call or chat communication between a virtual assistant and a customer to fulfill a specific task. They can be one of the following types:
+
+Interactive: Involves a two-way information (requests and responses) exchange between the virtual assistant and the customer.
+Non-interactive: Involves one-way information exchange from the virtual assistant to the customer.
   </details>
  </a>
 
@@ -34,10 +33,10 @@ permalink: platform/topic-guide/en/latest/Conversation Analytics
  
   <details class="nested-details">
  
-  <summary>Are these widgets clickable? 
+  <summary>What is a conversation summary?
   </summary>
 
- Yes, users will be navigated to each dashboard to view their details by clicking on the respective widget. 
+The Conversation Summary on the Conversation History dashboard displays the number of user messages, bot messages, identified and unidentified intents, and the tasks that have completed and failed in a conversation. 
 
   </details>
  </a>
@@ -47,15 +46,10 @@ permalink: platform/topic-guide/en/latest/Conversation Analytics
  
   <details class="nested-details">
  
-  <summary>What are the default filters in the Overview Dashboard?
+  <summary>What are conversation events?
   </summary>
 
-  Below are the default filter options:
-
--   Date: 24 hours
-
-- Session Type: Interactive Sessions
-- Session Status: Closed Session
+ A conversation event is a sequence of occurrences that are triggered by a specific action from the customer (based on their intent) and the virtual assistant during a conversation.
 
   </details>
  </a>
@@ -63,19 +57,29 @@ permalink: platform/topic-guide/en/latest/Conversation Analytics
  
  <a class="nested-accordian-link" target="_blank" href="https://developer.kore.ai/docs/bots/analyzing-your-bot/overview-dashboard/#Filter_Criteria">
  
- 
   <details class="nested-details">
  
-  <summary>Will the filter be persistent across all the dashboards?
+  <summary>How do I look at specific conversations?
   </summary>
 
- Yes, once a filter is applied to any of the dashboards it will be persistent across all the dashboards.
-
+To look at a specific conversation on the Conversation History Dashboard, select the relevant filters from the filter selection panel and view the conversation based on the label tagged to the conversation.
 
   </details>
 
 </a>
   
+  <a class="nested-accordian-link" target="_blank" href="https://developer.kore.ai/docs/bots/analyzing-your-bot/overview-dashboard/#Filter_Criteria">
+ 
+  <details class="nested-details">
+ 
+  <summary>How do I associate a label with a conversation?
+  </summary>
+
+Labels tagged to a conversation help the analyst identify the criticality and the action needed for a conversation. On the Conversation History dashboard, you can add a default (system-defined) label to a conversation or create a custom label.
+
+  </details>
+
+</a>
 
  </details>
 
